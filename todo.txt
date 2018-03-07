@@ -1,0 +1,11 @@
+TODO LIST
+
+1. graphic design for the bentley mark
+2. button toggle to switch between blue and red heeler layout, use css+js
+3. content
+fill out homepage
+fill out what bentley mark means
+fill out breed info
+fill out pics
+fill out poe info
+fill out info about means
