@@ -25,4 +25,4 @@ function toggleBackground()
 }
 
 //event listener for markCell
-document.getElementById("toggleBackground").addEventListener("click", toggleBackground);
+document.getElementById("colorToggle").addEventListener("click", toggleBackground);
