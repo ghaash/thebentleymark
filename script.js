@@ -1,20 +1,17 @@
 // alert("welcome to the bentley mark!");
-var coat = document.body.style.backgroundColor = "blue";
+document.body.style.backgroundColor = "blue";
 
 function toggleBackground()
 {
-    if(coat == "blue")
+    if(document.body.style.backgroundColor == "blue")
     {
-        document.body.style.backgroundColor = "red";
-    }
+        document.body.style.backgroundColor = "red";    }
 
     else
     {
-        coat = "blue";
+        document.body.style.backgroundColor = "blue";
     }
 }
-
-document.getElementById("colorToggle").addEventListener("click", toggleBackground);
 
 // var coatChange = document.getElementById("colorToggle");
 
