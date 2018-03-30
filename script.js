@@ -1,28 +1,46 @@
-alert("welcome to the bentley mark!");
+// alert("welcome to the bentley mark!");
 
+var coatChange = document.getElementById("colorToggle")
 
-//makes cell yellow and timeouts 100ms
-function toggleBackground()
-{
+coatChange.addEventListener("click", function() {
 
-    redAndBlue = document.getElementById("colorToggle");
-    redAndBlue.style.backgroundColor = "blue";
-
-    // setTimeout(function()
-    // {
-    //     alert("cell is now highlighted");
-    // }, 100);
-
-    // below is logic to toggle which we can't do :(
-    if(redAndBlue.style.backgroundColor == "blue")
+    if(document.body.classList.backgroundColor == "blue")
     {
-        redAndBlue.style.backgroundColor = "red"
+        document.body.style.backgroundColor == "red";
     }
+
     else
     {
-        redAndBlue.style.backgroundColor = "blue";
+        document.body.style.backgroundColor = "blue";
     }
-}
 
-//event listener for markCell
-document.getElementById("colorToggle").addEventListener("click", toggleBackground);
+});
+
+// var button1 = document.getElementById("colorToggle");
+
+// button1.addEventListener("click", function() {
+
+//     if(document.body.classList.toggle("colorred") == "colorred")
+
+// });
+
+
+// makes cell yellow and timeouts 100ms
+// function toggleBackground()
+// {
+
+//     redAndBlue = document.getElementById("colorToggle");
+//     redAndBlue.style.backgroundColor = "blue";
+
+//     if(document.body.style.backgroundColor == "blue")
+//     {
+//         document.body.style.backgroundColor = "red"
+//     }
+//     else
+//     {
+//         document.body.style.backgroundColor = "blue";
+//     }
+// }
+
+// //event listener for markCell
+// document.getElementById("colorToggle").addEventListener("click", toggleBackground);

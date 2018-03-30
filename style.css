@@ -56,3 +56,7 @@
   .slider.round:before {
     border-radius: 50%;
   }
+
+  .breedColor {
+    background-color: blue;
+}
