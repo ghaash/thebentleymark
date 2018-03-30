@@ -1,20 +1,31 @@
 // alert("welcome to the bentley mark!");
+var coat = document.body.style.backgroundColor = "blue";
 
-var coatChange = document.getElementById("colorToggle")
-
-coatChange.addEventListener("click", function() {
-
-    if(document.body.classList.backgroundColor == "blue")
+function toggleBackground()
+{
+    if(coat == "blue")
     {
-        document.body.style.backgroundColor == "red";
+        document.body.style.backgroundColor = "red";
     }
 
     else
     {
-        document.body.style.backgroundColor = "blue";
+        coat = "blue";
     }
+}
 
-});
+document.getElementById("colorToggle").addEventListener("click", toggleBackground);
+
+// var coatChange = document.getElementById("colorToggle");
+
+// coatChange.addEventListener("click", function() {
+
+//     if(coat == "blue");
+//     {
+//         document.body.style.backgroundColor = "red";
+
+//     }
+// });
 
 // var button1 = document.getElementById("colorToggle");
 
