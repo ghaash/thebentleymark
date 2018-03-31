@@ -1,17 +1,17 @@
 // alert("welcome to the bentley mark!");
-document.body.style.backgroundColor = "blue";
+// document.body.style.backgroundColor = "blue";
 
-function toggleBackground()
-{
-    if(document.body.style.backgroundColor == "blue")
-    {
-        document.body.style.backgroundColor = "red";    }
+// function toggleBackground()
+// {
+//     if(document.body.style.backgroundColor == "blue")
+//     {
+//         document.body.style.backgroundColor = "red";    }
 
-    else
-    {
-        document.body.style.backgroundColor = "blue";
-    }
-}
+//     else
+//     {
+//         document.body.style.backgroundColor = "blue";
+//     }
+// }
 
 // var coatChange = document.getElementById("colorToggle");
 
