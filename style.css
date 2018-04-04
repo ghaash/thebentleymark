@@ -64,3 +64,12 @@
   .redHeeler {
     background-color: red; 
 }
+
+#navbarSupportedContent {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+p {
+  text-align: justify;
+}
